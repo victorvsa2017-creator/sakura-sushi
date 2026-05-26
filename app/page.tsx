@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
               Exclusivo Sakura Sushi
             </p>
 
-            <h1 className="text-6xl lg:text-8xl font-black leading-[1.1]">
+            <h1 className="text-5xl lg:text-7xl font-black leading-[1.1]">
 
               Combinações
 
@@ -39,7 +40,7 @@ export default function Home() {
 
               <Link
                 href="/delivery"
-                className="bg-red-700 hover:bg-red-800 transition px-20 py-8 rounded-full text-3xl font-black shadow-2xl hover:scale-105"
+                className="bg-red-700 hover:bg-red-800 transition px-24 py-10 rounded-full text-3xl font-black shadow-lg hover:scale-105"
               >
                 🍣 PEÇA JÁ
               </Link>
@@ -64,12 +65,12 @@ export default function Home() {
               <img
                 src="https://images.unsplash.com/photo-1611762687807-7cdd09aef422?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dauto=format&fit=crop"
                 alt="Sushi"
-                className="w-[700px] h-[520px] object-cover rounded-[40px] border-4 border-red-700 shadow-2xl"
+                className="w-[700px] h-[520px] object-cover rounded-[40px] border-4 border-red-700 shadow-lg"
               />
 
               {/* PREÇO */}
 
-              <div className="absolute -bottom-10 -left-10 bg-red-700 w-52 h-52 rounded-full flex flex-col items-center justify-center border-8 border-black shadow-2xl">
+              <div className="absolute -bottom-10 -left-10 bg-red-700 w-52 h-52 rounded-full flex flex-col items-center justify-center border-8 border-black shadow-lg">
 
                 <span className="text-white text-lg">
                   A partir de

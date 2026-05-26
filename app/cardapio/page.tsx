@@ -160,7 +160,7 @@ export default function Cardapio() {
 
       {/* BEBIDAS */}
 
-      <h2 className="text-5xl font-black text-center text-red-600 mt-24 mb-14">
+      <h2 className="text-4xl font-black text-center text-red-600 mt-24 mb-14">
         Bebidas
       </h2>
 
@@ -260,7 +260,7 @@ export default function Cardapio() {
 
       {/* MOLHOS */}
 
-      <h2 className="text-5xl font-black text-center text-yellow-500 mt-24 mb-14">
+      <h2 className="text-4xl font-black text-center text-yellow-500 mt-24 mb-14">
         Molhos e Acompanhamentos
       </h2>
 
